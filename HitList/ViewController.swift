@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     var people: [NSManagedObject] = []
     
+    
+    
     @IBAction func addName(_ sender: UIBarButtonItem) {
         let alert = UIAlertController(title: "New Name", message: "Add a new name", preferredStyle: .alert)
         let saveAction = UIAlertAction(title: "Save", style: .default) {
